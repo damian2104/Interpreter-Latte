@@ -1,0 +1,12 @@
+int main() {
+	int i, j ;
+	i = 8 ;
+	j = 10;
+	if (i > j) {
+		return 2 * i ;
+	} else {
+		return j-1 ;
+	}
+	print("tu nie dojdziemy") ; // program nic nie wypisze ponieważ zakończy się po return w else
+	return 0 ;
+}

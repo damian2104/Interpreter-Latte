@@ -1,0 +1,15 @@
+int main() {
+	int i, j ;
+	i = 8 ;
+	j = func(i) ;
+	print(j) ;
+	return 0 ;
+}
+
+int func (int pocz) {
+	int z ;
+	z = 2 * pocz + 7 ;
+	return z ;
+}
+
+// program wypisze 23

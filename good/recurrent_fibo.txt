@@ -1,0 +1,20 @@
+int main() {
+	int howMany, value;
+	howMany = 10 ;
+	value = fibo (0, 1, 1, howMany-2) ;
+	print(value) ;
+	return 0 ;
+}
+
+int fibo (int prelast, int last, int count, int howManyMore) {
+	if (howManyMore == 0) {
+		return count;
+	}
+	
+	int new ;
+	new = prelast + last ;
+	count = count + new ;
+	return fibo (last, new, count, howManyMore-1) ;
+}
+
+// print w main wydrukuje 88 (suma pierwszych 10 liczb z cyklu Fibbonacciego)

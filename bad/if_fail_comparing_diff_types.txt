@@ -1,0 +1,13 @@
+int main() {
+	string siedem ;
+	siedem = "7" ;
+	int i, j ;
+	i = 8 ;
+	j = 10;
+	if (i > siedem) {
+		return 2 * i ;
+	}
+	return j ;
+}
+
+// nie przejdzie fazy kontroli typów

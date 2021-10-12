@@ -1,0 +1,9 @@
+int i
+
+int main() {
+	i = 7 ;
+	print(i) ;
+	return 0 ;
+}
+
+// program wydrukuje wartość zadeklarowanej globalnie zmiennej i

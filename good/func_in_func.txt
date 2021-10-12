@@ -1,0 +1,17 @@
+int main() {
+	int add(int a, int b) {
+		int add2(int c, int d) {
+			return c+d ;
+		}
+		return add2(a, b) ;
+	}
+	
+	int x, y, z;
+	x = 1 ;
+	y = 2 ;
+	z = add(x, y) ;
+	print(z) ;
+	return 0 ;
+}
+
+// program wydrukuje sumę liczb x, y czyli 3. Aby wyliczyć tą sumę w mainie jest odpalana wewnętrza funkcja add, a z niej - wewnętrzna funkcja add2

@@ -1,0 +1,13 @@
+int main() {
+	int i, j, count;
+	i = 7 ;
+	j = 10 ;
+	count = 0 ;
+	for k = i to j {
+		count = count + k ;
+	}
+	print(count) ;
+	return 0 ;
+}
+
+// pętla for ze zmienną k typu READ_ONLY, program wydrukuje 34

@@ -1,0 +1,11 @@
+int main() {
+	int i, j ;
+	i = 8 ;
+	j = 10;
+	if (i < j) {
+		print("jestesmy w ifie") ;
+	}
+	return 0;
+}
+
+// program powinien wydrukować zawartość printa, ponieważ warunek z if jest spełniony

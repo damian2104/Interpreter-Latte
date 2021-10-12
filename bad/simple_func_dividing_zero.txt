@@ -1,0 +1,14 @@
+int main() {
+	int i, j ;
+	i = 8 ;
+	j = func(i) ;
+	return j ;
+}
+
+int func (int pocz) {
+	int z ;
+	z = 2 * pocz / 0 ;
+	return z ;
+}
+
+// program wysypie się przy dzieleniu przez zero

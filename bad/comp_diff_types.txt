@@ -1,0 +1,11 @@
+int main() {
+	int x ;
+	string siedem ;
+	x = 7 ;
+	siedem = "7" ;
+	if (x == siedem) {
+		print("Dzien dobry") ;
+	}
+}
+
+// porównanie różnych typów, nie przejdzie fazy kontroli typów

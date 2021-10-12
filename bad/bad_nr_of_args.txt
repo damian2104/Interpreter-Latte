@@ -1,0 +1,10 @@
+int main() {
+	add(1) ;
+	return 0 ;
+}
+
+int add(int x, int y) {
+	return x+y ;
+}
+
+// program nie przejdzie fazy kontroli typów (przekazujemy do funkcji add jeden argument, a nie 2)

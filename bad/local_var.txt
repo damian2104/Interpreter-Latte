@@ -1,0 +1,11 @@
+int main() {
+	if (1 == 1) {
+		int k ;
+		k = 7 ;
+		print(k) ;
+	}
+	print(k) ;
+	return 0 ;
+}
+
+// program wywali się na print (lokalna zmienna k nie jest widoczna poza if-em)

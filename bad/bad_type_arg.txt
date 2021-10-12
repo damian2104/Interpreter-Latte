@@ -1,0 +1,12 @@
+int main() {
+	string s ;
+	s = "jeden" ;
+	func(s) ;
+	return 0 ;
+}
+
+int func(int x) {
+	return x ;
+}
+
+// program nie przejdzie fazy kontroli typów (przekazujemy do funkcji string, a nie int)
